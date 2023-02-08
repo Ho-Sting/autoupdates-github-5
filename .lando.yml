@@ -1,0 +1,13 @@
+name: lando-drupal10
+recipe: drupal10
+config:
+  webroot: .
+  database: mariadb
+
+plugins:
+  "@lando/drupal/": ./../../
+
+tooling:
+  drush:
+    env:
+      DRUSH_OPTIONS_URI: "https://lando-drupal10.lndo.site/"

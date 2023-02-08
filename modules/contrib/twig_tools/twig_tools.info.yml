@@ -1,0 +1,9 @@
+name: 'Twig Tools'
+type: module
+description: 'Provides additional Twig filters and functions.'
+core_version_requirement: ^9 || ^10
+
+# Information added by Drupal.org packaging script on 2023-01-18
+version: '2.0.0'
+project: 'twig_tools'
+datestamp: 1674015584
